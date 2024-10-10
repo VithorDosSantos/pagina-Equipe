@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("fundo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadradomaior{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 50px 200px 20px 200px;
+    padding-bottom: 30px;
+}
+div img{
+    height: 110px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.contato{
+    display: flex;
+    align-items: center;
+}
+.nomeContato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nomeContato h2, .nomeContato p{
+    margin: 5px;
+}
+hr{
+    width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px
+}
